@@ -1,0 +1,16 @@
+{
+  "name": "mrchar.github.io",
+  "version": "0.0.1",
+  "description": "mrchar's blog",
+  "main": "index.js",
+  "repository": "https://github.com/mrchar/mrchar.github.io.git",
+  "author": "mrchar <mrchar@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.28"
+  }
+}
